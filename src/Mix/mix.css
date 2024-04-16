@@ -1,0 +1,217 @@
+.Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 1000px;
+    border: 2px solid #020101;
+    background-color: #f5f5f5;
+}
+
+.selector{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 650px;
+    height: 100%;
+    margin-top: -10px;
+    /* background-color: #350546; */
+    
+
+}
+
+.mixArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 950px;
+    height: 100%;
+    /* background-color: #801e1e; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.viewArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    width: 350px;
+    height: 95%;
+    border: 1px solid #645f5f;
+    /* background-color: #0f0f0f; */
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 80%;
+    border-radius: 5px;
+    background-color: #255386;
+    color: #f5f5f5;
+    font-weight: 400;
+    margin-left: 3px;
+    flex-shrink: 0; /* Prevent items from shrinking */
+    cursor: pointer;
+
+
+}
+
+.selectCategory {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    width: 550px;
+    background-color: #8d8173;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    overflow-x: auto; /* Make it scrollable horizontally */
+    white-space: nowrap; /* Prevent wrapping */
+    scrollbar-width: none; /* Hide scrollbar for a cleaner look */
+    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+}
+
+.selectCategory::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+.selectViewItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 565px;
+    height: 450px;
+    background-color: #ededed;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow */
+    overflow-y: auto; /* Make it scrollable horizontally */
+    white-space: nowrap; /* Prevent wrapping */
+    scrollbar-width: none; /* Hide scrollbar for a cleaner look */
+    -ms-overflow-style: none;
+}
+.selectViewItem::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+.selectCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 550px;
+    height: 100px;
+    background-color: #dedede;
+    border: 1px solid #645f5f;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow */
+}
+
+
+
+
+.imgCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height:90px;
+    background-color: #484848;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 150px;
+    height: 90px;
+    /* background-color: #484848; */
+    border-radius: 10px;
+    margin-left: 30px;
+    color: #010101;
+    font-size: 18px;
+}
+
+.info p{
+    margin-top: 5px;
+}
+
+.selectCards .price{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 30px;
+}
+
+.selectCards .add{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 60px;
+   
+}
+
+.selectCards .add button{
+    background-color: #087a7e;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.weight input{
+    width: 40px;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.viewItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 95%;
+    border: 1px solid #645f5f;
+    
+    /* background-color: #0f0f0f; */
+}
