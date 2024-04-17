@@ -41,13 +41,21 @@ const Dashboard = () => {
                     <Link to="/editUser">
                     <button>Edit Customer Details</button>
                     </Link>
+                    <Link to="/myorder">
                     <button>My Orders</button>
+                    </Link>
                     <Link to="/mix">
                     <button>Mix</button>
                     </Link>
+                    <Link to="/myMix">
                     <button>My Muesli Mixes</button>
+                    </Link>
+                    <Link to="/order">
                     <button>Order</button>
+                    </Link>
+                    <Link to="/exit">
                     <button>Exit</button>
+                    </Link>
                 </div>
             </div>
         </div>
